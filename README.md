@@ -1,4 +1,4 @@
-# Excel Dashboard Portfolio
+# Market Basis Analysis Dashboard Portfolio
 This repository showcases interactive Excel dashboards.  
 
 - **Revenue Dashboard**: Highlights top-performing products with pivot tables, slicers, and timelines.   
