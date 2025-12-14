@@ -1,0 +1,16 @@
+Selecting everything from the data set:
+SELECT * FROM "Market Basis Analysis Sheet", LIMIT 5
+
+Viewing the top 5 products:
+SELECT "Itemname", SUM (Revenue) AS total_revenue 
+FROM "Market Basis Analysis Sheet"
+GROUP BY "Itemname"
+ORDER BY total_revenue DESC
+LIMIT 5
+
+Viewing the top 5 products by country:
+SELECT "country", "Itemname", SUM (Revenue) AS total_revenue 
+FROM "Market Basis Analysis Sheet"
+GROUP BY "Itemname", "country"
+ORDER BY "country", total_revenue DESC
+LIMIT 5
